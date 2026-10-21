@@ -1,0 +1,14 @@
+[project]
+name = "classic-bounding-box"
+description = "The core Create Bounding Boxes box editor made usable in the classic UI (Nodes 1.0), on top of the original node; the original core files are not modified. Not standalone: connect its bboxes output to the bboxes input of the core Create Bounding Boxes node and keep using that node's preview, bboxes and elements outputs."
+version = "1.0.0"
+license = { file = "LICENSE" }
+authors = [{ name = "yj" }]
+
+[project.urls]
+Repository = "https://github.com/1113800942/comfy-classic-bounding-box"
+
+[tool.comfy]
+PublisherId = "yj1113800942"
+DisplayName = "Create Bounding Box for Notes 1.0"
+web = "web"
